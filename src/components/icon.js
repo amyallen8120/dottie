@@ -1,27 +1,24 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Landing } from './index';
+import {
+  cheers
+} from '../assets/icons';
 
-export class AppContent extends React.Component {
-  constructor() {
-    super();
-
-    this.state = {
-      screen: 'landing'
-    };
-  }
-
-  currentScreen(screen) {
-    switch(screen) {
+export class Icon extends React.Component {
+  returnIcon() {
+    switch(this.props.name) {
+      case 'cheers':
+        return cheers();
       default:
-        return <Landing />;
+        return null;
     }
   }
 
   render() {
     return (
       <View style={styles.wrapper}>
-        {this.currentScreen(this.state.screen)}
+        {this.returnIcon(this.props.name)}
       </View>
     );
   }
