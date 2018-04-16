@@ -9,7 +9,7 @@ export class Landing extends React.Component {
         <Heading />
         <View style={styles.content}>
           <View style={styles.imageContainer}>
-            <Icon name="cheers" />;
+            <Icon name={'cheers'} />;
           </View>
           <View style={styles.ellipseContainer}>
             <View style={styles.ellipse}></View>
@@ -23,10 +23,6 @@ export class Landing extends React.Component {
   }
 }
 
-const AlreadyStyledComponent = ({text, style}) => {
-  return <StyledText style={style}>{text}</StyledText>
-};
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -37,7 +33,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   imageContainer: {
-    
   },
   ellipseContainer: {
     flexDirection: 'row',

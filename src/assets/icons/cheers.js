@@ -1,8 +1,8 @@
 import React from 'react';
-import Svg, { Path, G } from 'react-native-svg';
+import SVG, { Path, G } from 'react-native-svg';
 
 export const cheers = () => 
-<Svg width="311" height="286" viewBox="0 0 311 286" version="1.1">
+<SVG width="311" height="286" viewBox="0 0 311 286">
 	<G id="Canvas" fill="none">
 	<G id="cheers">
 	<G id="Group">
@@ -105,4 +105,4 @@ export const cheers = () =>
 	</G>
 	</G>
 	</G>
-</Svg>;
+</SVG>;

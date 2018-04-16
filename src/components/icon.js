@@ -18,7 +18,7 @@ export class Icon extends React.Component {
   render() {
     return (
       <View style={styles.wrapper}>
-        {this.returnIcon(this.props.name)}
+        {this.returnIcon(this.props.name) || null}
       </View>
     );
   }

@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
   headerText: {
     textAlign: 'center',
     color: '#fff',
+    fontFamily: 'pacifico',
   },
   header1: {
     fontSize: 46,
