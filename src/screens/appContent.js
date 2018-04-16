@@ -20,6 +20,9 @@ export class AppContent extends React.Component {
   _loadAssetsAsync = async () => {
     await Font.loadAsync({
       pacifico: require('../assets/fonts/Pacifico-Regular.ttf'),
+      ralewayRegular: require('../assets/fonts/Raleway-Regular.ttf'),
+      ralewaySemiBold: require('../assets/fonts/Raleway-SemiBold.ttf'),
+      ralewayBold: require('../assets/fonts/Raleway-Bold.ttf'),
     });
 
     this.setState({ initialized: true });

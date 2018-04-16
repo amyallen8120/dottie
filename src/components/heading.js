@@ -29,13 +29,14 @@ const styles = StyleSheet.create({
   headerText: {
     textAlign: 'center',
     color: '#fff',
-    fontFamily: 'pacifico',
   },
   header1: {
     fontSize: 46,
     paddingBottom: 10,
+    fontFamily: 'pacifico',
   },
   header2: {
     fontSize: 18,
+    fontFamily: 'ralewayRegular',
   },
 });

@@ -9,7 +9,7 @@ export class Landing extends React.Component {
         <Heading />
         <View style={styles.content}>
           <View style={styles.imageContainer}>
-            <Icon name={'cheers'} />;
+            <Icon name={'cheers'} />
           </View>
           <View style={styles.ellipseContainer}>
             <View style={styles.ellipse}></View>
